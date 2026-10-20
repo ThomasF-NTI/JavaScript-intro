@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Vad kan JavaScript göra?</h1>
+
+    <p id="demo">JavaScript kan gömma HTML-element.</p>
+
+    <!-- p-elementets style-värde för display sätts till none -->
+    <button onclick="document.getElementById('demo').style.display='none'">
+        Klicka här!
+    </button> 
+</body>
+</html>
